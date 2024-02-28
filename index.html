@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>santiu</title>
 		<link rel="stylesheet" href="./css/style.css" />
+		<script src="./js/index.js" defer></script>
 	</head>
 	<body>
 		<section class="nav" id="">
@@ -13,19 +14,31 @@
 				<h1>S</h1>
 				<h1><strong class="nav-left-logo">U</strong></h1>
 			</div>
-			<div class="nav-right">
-				<ul>
-					<li><a href="#home">Home</a></li>
-					<li><a href="#about">About</a></li>
-					<li><a href="#work">Work</a></li>
-					<li><a href="#contact">Contact</a></li>
-				</ul>
-			</div>
-			<div class="nav-far-right">
-				<ul>
-					<li><a href="#contact">CV</a></li>
-					<li><a href="#contact">Socials</a></li>
-				</ul>
+
+			<button
+				class="mobile-nav-toggle"
+				aria-controls="nav-primary-id"
+				aria-expanded="false"
+			>
+				<span></span>
+			</button>
+
+			<div id="nav-primary" class="nav-primary">
+				<div class="nav-right">
+					<ul>
+						<li><a href="#home">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#work">Work</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+				<div class="nav-right-breaker">x</div>
+				<div class="nav-far-right">
+					<ul>
+						<li><a href="#contact">CV</a></li>
+						<li><a href="#contact">Socials</a></li>
+					</ul>
+				</div>
 			</div>
 		</section>
 

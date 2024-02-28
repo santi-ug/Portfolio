@@ -25,6 +25,7 @@
 	box-sizing: border-box;
 	scroll-behavior: smooth;
 	font-family: var(--bebas);
+	overflow-x: hidden;
 }
 
 a {
