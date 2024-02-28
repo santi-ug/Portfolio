@@ -1,2 +1,42 @@
 .socials {
+	display: flex;
+	width: 90%;
+	margin: 0rem 6rem;
+	padding: 20rem 0 12rem 0;
+}
+
+/* Left */
+.socials-left-grid {
+	display: grid;
+	width: 20%;
+	grid-template-rows: repeat(4, 1fr);
+	transform: translateX(2rem);
+}
+
+.socials-left-grid img {
+	width: 6rem;
+	transition: 0.2s ease all;
+}
+
+.socials-left-grid .grid-item:nth-child(1) img {
+	scale: 1.3;
+}
+
+.socials-left-grid .grid-item:nth-child(4) img {
+	scale: 1.2;
+}
+
+.socials-left-grid img:hover {
+	transform: translateX(2rem);
+	transition: 0.2s ease all;
+	cursor: pointer;
+}
+
+/* Right */
+.socials-right {
+	width: 80%;
+}
+
+.socials-right img {
+	width: 100%;
 }

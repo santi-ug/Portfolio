@@ -9,6 +9,7 @@
 @import url("./sections/nav.css");
 @import url("./sections/hero.css");
 @import url("./sections/socials.css");
+@import url("./sections/contact.css");
 
 :root {
 	--inter: "Inter", sans-serif;

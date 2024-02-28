@@ -8,6 +8,7 @@
 	padding: 2rem 6rem;
 	background-color: hsl(0 0% 60% / 0.1);
 	backdrop-filter: blur(1rem);
+	z-index: 8000;
 }
 
 .nav-left {

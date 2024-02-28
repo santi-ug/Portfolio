@@ -8,7 +8,8 @@
 	display: flex;
 	width: 100%;
 	justify-content: space-around;
-	margin: -1rem 3rem;
+	margin-top: -5rem;
+	padding: 5rem 3rem 0 3rem;
 	color: white;
 }
 
@@ -93,6 +94,15 @@
 	margin-top: 2rem;
 	justify-content: center;
 	background: black;
+	font-size: 2rem;
+	width: 100%;
+	transition: 0.2s ease all;
+}
+
+.hero-right-CTA a {
+	display: flex;
+	justify-content: center;
+	background: black;
 	padding: 2rem;
 	font-size: 2rem;
 	width: 100%;
@@ -110,7 +120,7 @@
 	position: absolute;
 	color: #ffffff;
 	top: 55.5rem;
-	left: 55rem;
+	left: 58.5rem;
 	width: 5rem;
 }
 
