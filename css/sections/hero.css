@@ -19,13 +19,13 @@
 
 /* Left side */
 .hero-left {
-	margin-right: 20rem;
-	margin-left: -5rem;
+	margin-right: 10rem;
+	margin-left: -2rem;
 }
 
 .hero-left img {
 	padding: 7.4rem 3rem;
-	width: 130%;
+	width: 110%;
 }
 
 /* Right Side */
@@ -33,7 +33,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 30%;
+	width: 35%;
 }
 
 .hero-upper span strong {
@@ -55,7 +55,8 @@
 }
 
 .hero-right div:nth-child(2) span {
-	font-size: 4rem;
+	font-size: 3.5rem;
+	font-weight: 300;
 }
 
 .hero-right .hero-right-pitch {
@@ -71,7 +72,7 @@
 }
 
 .hero-right img {
-	width: 20rem;
+	width: 14rem;
 }
 
 .hero-right-desc {
@@ -80,10 +81,11 @@
 }
 
 .hero-right-body {
-	margin-top: 2rem;
+	margin-top: 1rem;
 	font-family: var(--inter);
 	text-transform: none;
-	font-size: 1rem;
+	font-size: 1.125rem;
+	font-weight: 300;
 }
 
 .hero-right-CTA {
@@ -100,5 +102,6 @@
 .hero-right-CTA:hover {
 	background: #2c2c2c;
 	transition: 0.2s ease all;
+	scale: 1.1;
 	cursor: pointer;
 }
