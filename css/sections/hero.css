@@ -1,0 +1,9 @@
+.hero {
+	display: flex;
+	background-color: #909090;
+}
+
+.hero-left img {
+	padding: 7.4rem 3rem;
+	width: 90%;
+}
