@@ -11,6 +11,12 @@
 @import url("./sections/socials.css");
 @import url("./sections/contact.css");
 @import url("./sections/footer.css");
+@import url("./sections/about.css");
+
+@font-face {
+	font-family: "neue montreal";
+	src: url("../fonts/neue-montreal/neue-montreal.ttf");
+}
 
 :root {
 	--inter: "Inter", sans-serif;
@@ -20,6 +26,7 @@
 	--dm: "DM Sans", sans-serif;
 	--protest: "Protest Revolution", sans-serif;
 	--unbounded: "Unbounded", sans-serif;
+	--montreal: "neue montreal", sans-serif;
 }
 
 * {
