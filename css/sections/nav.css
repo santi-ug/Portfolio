@@ -6,6 +6,27 @@
 }
 
 .nav-left {
+	scale: 1.3;
+	transform: translateY(1.2rem);
+	transition: 0.2s all ease;
+}
+
+.nav-left:hover {
+	scale: 1.5;
+	cursor: pointer;
+	transition: 0.2s all ease;
+}
+
+.nav-left h1 {
+	font-size: 2.5rem;
+	font-weight: 700;
+	text-shadow: -1px 1px 2px hsl(0, 0%, 67%), 1px 1px 2px #fff, 1px -1px 0 #fff,
+		-1px -1px 0 #fff;
+}
+
+.nav-left .nav-left-logo {
+	display: flex;
+	transform: translateX(0.8rem) translateY(-2.5rem);
 }
 
 .nav-right ul {
@@ -17,4 +38,13 @@
 li {
 	list-style: none;
 	font-size: 2rem;
+	text-shadow: -1px 1px 2px hsl(0, 0%, 67%), 1px 1px 2px #fff, 1px -1px 0 #fff,
+		-1px -1px 0 #fff;
+	transition: 0.2s all ease;
+}
+
+li:hover {
+	cursor: pointer;
+	transform: translateY(-0.3rem);
+	transition: 0.2s all ease;
 }
