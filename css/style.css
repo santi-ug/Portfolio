@@ -8,6 +8,7 @@
 
 @import url("./sections/nav.css");
 @import url("./sections/hero.css");
+@import url("./sections/socials.css");
 
 :root {
 	--inter: "Inter", sans-serif;
@@ -25,7 +26,6 @@
 	box-sizing: border-box;
 	scroll-behavior: smooth;
 	font-family: var(--bebas);
-	overflow-x: hidden;
 }
 
 a {

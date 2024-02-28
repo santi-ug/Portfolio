@@ -1,9 +1,104 @@
 .hero {
+	margin-top: 168px;
 	display: flex;
 	background-color: #909090;
 }
 
+.hero-upper {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	margin: 0 3rem;
+	color: white;
+}
+
+.hero-upper span {
+	font-family: var(--inter);
+	text-transform: uppercase;
+}
+
+/* Left side */
+.hero-left {
+	margin-right: 20rem;
+	margin-left: -5rem;
+}
+
 .hero-left img {
 	padding: 7.4rem 3rem;
-	width: 90%;
+	width: 130%;
+}
+
+/* Right Side */
+.hero-right {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 30%;
+}
+
+.hero-upper span strong {
+	font-family: var(--inter);
+	font-size: 1.5rem;
+}
+
+.pitch-breaker {
+	width: 100%;
+	background: #ffffff;
+	height: 2px;
+	margin-top: 0.3rem;
+}
+
+.hero-upper .hero-right {
+	margin-top: 8rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.hero-right div:nth-child(2) span {
+	font-size: 4rem;
+}
+
+.hero-right .hero-right-pitch {
+	margin-bottom: 0.5rem;
+}
+
+.hero-right .hero-right-name {
+	margin-bottom: 1.5rem;
+}
+
+.hero-right-pfp {
+	margin-bottom: 1rem;
+}
+
+.hero-right img {
+	width: 20rem;
+}
+
+.hero-right-desc {
+	font-size: 1.25rem;
+	font-weight: 500;
+}
+
+.hero-right-body {
+	margin-top: 2rem;
+	font-family: var(--inter);
+	text-transform: none;
+	font-size: 1rem;
+}
+
+.hero-right-CTA {
+	display: flex;
+	margin-top: 2rem;
+	justify-content: center;
+	background: black;
+	padding: 2rem;
+	font-size: 2rem;
+	width: 100%;
+	transition: 0.2s ease all;
+}
+
+.hero-right-CTA:hover {
+	background: #2c2c2c;
+	transition: 0.2s ease all;
+	cursor: pointer;
 }
