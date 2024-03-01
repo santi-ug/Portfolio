@@ -1,0 +1,132 @@
+.projects {
+	margin: 6rem 6rem;
+}
+
+.projects-container {
+	display: flex;
+}
+
+.projects-container-left {
+	width: 50%;
+	animation: move 1.1s infinite;
+}
+
+.projects-container-left img {
+	position: absolute;
+	width: 22%;
+	transform: translateX(5rem) translateY(-4rem);
+}
+
+.projects-container-right {
+	width: 80%;
+	padding-right: 5rem;
+}
+
+.projects-container-right img {
+	width: 100%;
+	transform: translateX(-5rem);
+}
+
+/* Projects */
+.projects-display-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	gap: 1.5rem;
+	margin-left: 1rem;
+	margin-top: 6rem;
+}
+
+.projects-display-grid-item {
+	width: 32rem;
+	display: flex;
+	flex-direction: column;
+	transition: 0.2s ease all;
+	margin-bottom: 2rem;
+}
+
+.projects-display-grid-item > img {
+	filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.25));
+	transition: 0.2s ease all;
+}
+
+.imgthumbnail:hover {
+	transform: scale(1.02);
+	transition: 0.2s ease all;
+	cursor: pointer;
+}
+
+.projects-display-grid-item > img {
+	width: 100%;
+	height: 16rem;
+	object-fit: cover;
+	border-radius: 0.4rem;
+}
+
+.projects-display-grid-item-body {
+	width: 100%;
+	height: 100%;
+	margin-top: 1rem;
+}
+
+.projects-display-grid-item-body a {
+	font-family: var(--inter);
+	font-weight: 700;
+}
+
+.projects-display-grid-item-body a:hover {
+	text-decoration: underline;
+}
+
+.projects-display-grid-item-body-title {
+	display: flex;
+	justify-content: space-between;
+}
+
+.projects-display-grid-item-body-title-link a img {
+	width: 2rem;
+	transition: 0.2s ease all;
+}
+
+.projects-display-grid-item-body-title-link a img:hover {
+	transform: scale(1.1);
+	transition: 0.2s ease all;
+}
+
+.projects-display-grid-item-body-title h2 {
+	font-size: 1.6rem;
+	font-weight: 700;
+	font-family: var(--inter);
+	transform: translateY(0.3rem);
+}
+
+.projects-display-grid-item-body-subtitle {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.projects-display-grid-item-body-subtitle h3 {
+	font-family: var(--montreal);
+	font-size: 0.7rem;
+	transform: translateY(0.3rem);
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.projects-display-grid-item-body-subtitle .tech-stack {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+
+.projects-display-grid-item-body-subtitle .tech-stack img {
+	width: 1.5rem;
+}
+
+.projects-display-grid-item-body p {
+	font-family: var(--inter);
+	font-size: 1rem;
+	font-weight: 400;
+	margin-top: 1rem;
+}
