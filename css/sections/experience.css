@@ -1,0 +1,64 @@
+.experience {
+	margin-top: 168px;
+	background-color: #909090;
+	color: white;
+}
+
+.experience-container {
+	display: flex;
+	padding: 8rem 3rem;
+}
+
+.experience-container-left {
+	width: 80%;
+	margin-right: 5rem;
+}
+
+.experience-container-left img {
+	width: 100%;
+}
+
+.experience-container-right {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	padding-right: 5rem;
+}
+
+.experience-container-right h2 {
+	font-family: var(--inter);
+	font-size: 2rem;
+	margin-bottom: 0.5rem;
+}
+
+.experience-container-right-title-info {
+	display: flex;
+	justify-content: space-between;
+}
+
+.experience-container-right-title-info h3 {
+	font-family: var(--montreal);
+	font-size: 0.7rem;
+	margin-bottom: 1rem;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+.experience-container-right-title-info small {
+	font-family: var(--montreal);
+	font-size: 0.7rem;
+	margin-bottom: 1rem;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+.experience-container-right ul {
+	transform: translateX(1rem);
+}
+
+.experience-container-right ul li {
+	font-family: var(--inter);
+	font-size: 1rem;
+	margin-bottom: 0.5rem;
+	font-weight: 400;
+}
